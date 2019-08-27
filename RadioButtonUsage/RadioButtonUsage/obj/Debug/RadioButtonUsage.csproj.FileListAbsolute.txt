@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\bin\Debug\RadioButtonUsage.exe.config
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\bin\Debug\RadioButtonUsage.exe
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\bin\Debug\RadioButtonUsage.pdb
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.exe
+C:\Users\Emre Sert\Desktop\c#winform\RadioButtonUsage\RadioButtonUsage\obj\Debug\RadioButtonUsage.pdb
