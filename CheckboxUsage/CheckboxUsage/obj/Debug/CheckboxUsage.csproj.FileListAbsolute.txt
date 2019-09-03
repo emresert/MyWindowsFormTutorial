@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\bin\Debug\CheckboxUsage.exe.config
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\bin\Debug\CheckboxUsage.exe
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\bin\Debug\CheckboxUsage.pdb
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.exe
+C:\Users\Emre Sert\Desktop\c#winform\CheckboxUsage\CheckboxUsage\obj\Debug\CheckboxUsage.pdb
