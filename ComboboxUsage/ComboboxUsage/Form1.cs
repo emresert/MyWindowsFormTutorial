@@ -91,7 +91,8 @@ namespace ComboboxUsage
             {
                 comboBox3.Items.Clear();
                 string[] x5Models = { "Q3", "Q6", "Q7" };
-                comboBox3.Items.AddRange(x5Models); // Method 2 to display models
+                comboBox3.Items.AddRange(x5Models); 
+                // Method 2 to display models
               
             }
             else if (comboBox2.Text == "Polo")
