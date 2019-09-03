@@ -106,7 +106,9 @@ namespace ListboxUsage
 
         private void button2_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Remove(listBox1.SelectedItem); // remove listbox item on form object which we select
+            listBox1.Items.Remove(listBox1.SelectedItem);
+            
+            // remove listbox item on form object which we select
         }
 
         private void button3_Click(object sender, EventArgs e)
