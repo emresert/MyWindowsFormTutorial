@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\bin\Debug\ListboxUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\bin\Debug\ListboxUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\bin\Debug\ListboxUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListboxUsage\ListboxUsage\obj\Debug\ListboxUsage.pdb
