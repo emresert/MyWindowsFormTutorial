@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\bin\Debug\RandomUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\bin\Debug\RandomUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\bin\Debug\RandomUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\RandomUsage\RandomUsage\obj\Debug\RandomUsage.pdb
