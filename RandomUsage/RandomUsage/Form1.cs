@@ -35,7 +35,7 @@ namespace RandomUsage
 
                 }
                 else if (tahmin < sayi) {
-                    label5.ForeColor = System.Drawing.Color.Green;
+                    label5.ForeColor = System.Drawing.Color.Green; //change color for label
                     label5.Text = "Tahmininizi arttırınız.";
                     puan = puan - 100;
                     label7.Text = puan.ToString();
