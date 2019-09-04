@@ -20,11 +20,11 @@ namespace Timer_PictureBox_ImageListUsage
         int salise = 0,saniye =0,dakika = 0;
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Interval = 1000;
+            timer1.Interval = 1000; // for a second
             timer1.Enabled  = true;
-            timer2.Interval = 10 ;
-            
+            timer2.Interval = 10 ; // for a split-second
             pictureBox1.Image = ımageList1.Images[0]; // it should be ı not i .
+
             label5.Text = "0";
             label6.Text = "0";
             label7.Text = "0";
@@ -36,14 +36,20 @@ namespace Timer_PictureBox_ImageListUsage
            
         }
 
-      
         private void button2_Click(object sender, EventArgs e)
         {
-            timer2.Stop();
-           
+            label5.Text = "";
+            label6.Text = "";
+            label7.Text = "";
         }
 
         int i = 0; // index variable for  picture array
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timer2.Stop();
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = DateTime.Now.ToString();
