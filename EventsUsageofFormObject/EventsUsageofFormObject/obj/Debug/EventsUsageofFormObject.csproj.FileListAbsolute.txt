@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\bin\Debug\EventsUsageofFormObject.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\bin\Debug\EventsUsageofFormObject.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\bin\Debug\EventsUsageofFormObject.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\EventsUsageofFormObject\EventsUsageofFormObject\obj\Debug\EventsUsageofFormObject.pdb
