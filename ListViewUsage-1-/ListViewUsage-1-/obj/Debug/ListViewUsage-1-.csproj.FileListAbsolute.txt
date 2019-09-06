@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\bin\Debug\ListViewUsage-1-.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\bin\Debug\ListViewUsage-1-.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\bin\Debug\ListViewUsage-1-.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage-1-.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage_1_.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage_1_.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage-1-.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage-1-.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ListViewUsage-1-\ListViewUsage-1-\obj\Debug\ListViewUsage-1-.pdb
