@@ -31,7 +31,7 @@ namespace ListViewUsage_1_
             // fullrowselect should be true on properties window of listview to select all row.
             string[] mezuniyet = { "İlköğretim", "Lise", "Önlisans", "Lisans", "Yüksek Lisans" };
             comboBox1.Items.AddRange(mezuniyet);
-            kayitSayisiDondur(); // call the function
+            kayitSayisiDondur(); // call the function for record count
         }
         
         private void kayitSayisiDondur()
