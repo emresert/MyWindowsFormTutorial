@@ -1,0 +1,10 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\bin\Debug\ProgressBarUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\bin\Debug\ProgressBarUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\bin\Debug\ProgressBarUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ProgressBarUsage\ProgressBarUsage\obj\Debug\ProgressBarUsage.Form2.resources
