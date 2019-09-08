@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\bin\Debug\ToolTipUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\bin\Debug\ToolTipUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\bin\Debug\ToolTipUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ToolTipUsage\ToolTipUsage\obj\Debug\ToolTipUsage.pdb
