@@ -36,6 +36,7 @@ namespace ToolTipUsage
             toolTip1.SetToolTip(this.textBox3, "Şifre harf, sayı ve özel karakter içermelidir.");
             toolTip1.SetToolTip(this.textBox4, "Lütfen şifrenizi doğrulayın.");
             toolTip2.SetToolTip(this.textBox5, "Cep telefonu bilgisi zorunlu değil.");
+
         }
     }
 }
