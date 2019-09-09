@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\bin\Debug\ErrorProviderUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\bin\Debug\ErrorProviderUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\bin\Debug\ErrorProviderUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\ErrorProviderUsage\ErrorProviderUsage\obj\Debug\ErrorProviderUsage.pdb
