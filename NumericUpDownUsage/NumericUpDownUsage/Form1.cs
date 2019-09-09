@@ -26,6 +26,7 @@ namespace NumericUpDownUsage
             numericUpDown3.Maximum = 255;
             numericUpDown3.Minimum = 0;
 
+            // Determine amount of increment
             numericUpDown1.Increment = 20;
             numericUpDown2.Increment = 20;
             numericUpDown3.Increment = 20;
