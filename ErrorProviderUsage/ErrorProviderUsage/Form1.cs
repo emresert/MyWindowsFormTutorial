@@ -21,7 +21,7 @@ namespace ErrorProviderUsage
         {
             errorProvider1.BlinkRate = 400;
             errorProvider1.BlinkStyle = ErrorBlinkStyle.NeverBlink;
-            textBox1.MaxLength = 11;
+            //textBox1.MaxLength = 11;
 
         }
 
