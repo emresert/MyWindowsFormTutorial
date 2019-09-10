@@ -1,1 +1,9 @@
 C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\bin\Debug\NumericUpDownUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\bin\Debug\NumericUpDownUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\bin\Debug\NumericUpDownUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\NumericUpDownUsage\NumericUpDownUsage\obj\Debug\NumericUpDownUsage.pdb
