@@ -127,6 +127,7 @@ namespace PetrolStationProject
             txt_depo_yaz();
             progressbar_guncelle();
             numericupdown_value();
+
         }
 
 
