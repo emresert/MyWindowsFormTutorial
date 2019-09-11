@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\bin\Debug\PetrolStationProject.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\bin\Debug\PetrolStationProject.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\bin\Debug\PetrolStationProject.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\PetrolStationProject\PetrolStationProject\obj\Debug\PetrolStationProject.pdb
