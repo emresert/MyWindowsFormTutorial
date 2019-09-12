@@ -1,0 +1,9 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\bin\Debug\DataGridViewUsage.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\bin\Debug\DataGridViewUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\bin\Debug\DataGridViewUsage.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\DataGridViewUsage\DataGridViewUsage\obj\Debug\DataGridViewUsage.pdb
