@@ -22,6 +22,7 @@ namespace TransitionBetweenFormsAndDataTransfering
             // We have created an object from Form2 after setting form1 objects as public
             Form2 f2 = new Form2();
             f2.label4.Text = textBox1.Text;
+
             double y1 = Convert.ToDouble(textBox2.Text);
             double y2 = Convert.ToDouble(textBox3.Text);
             double y3 = Convert.ToDouble(textBox4.Text);
