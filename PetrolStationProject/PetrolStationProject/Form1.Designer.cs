@@ -52,6 +52,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -69,6 +70,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -83,8 +85,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -336,6 +336,16 @@
             this.tabPage2.Text = "Fiyat Bilgileri";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(366, 49);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 152);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Fiyat Güncelle";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // label29
             // 
             this.label29.Location = new System.Drawing.Point(227, 21);
@@ -494,6 +504,15 @@
             this.tabPage3.Text = "Satış";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(346, 70);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 152);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Satış Yap";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // numericUpDown5
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(220, 202);
@@ -537,6 +556,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(212, 21);
             this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label28
             // 
@@ -609,24 +629,6 @@
             this.label21.Size = new System.Drawing.Size(56, 13);
             this.label21.TabIndex = 0;
             this.label21.Text = "Yakıt Türü";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(366, 49);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 152);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Fiyat Güncelle";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(346, 70);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 152);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Satış Yap";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

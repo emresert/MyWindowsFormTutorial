@@ -23,6 +23,9 @@ namespace PetrolStationProject
         double eBenzin95 = 0, eBenzin97 = 0, eDizel = 0, eEuroDizel = 0, eLpg = 0;
         // Depodaki yakıtların fiyatları için değişkenler oluşturuldu
         double fBenzin95 = 0, fBenzin97 = 0, fDizel = 0, fEuroDizel = 0, fLpg = 0;
+
+       
+
         // Depodaki satılan yakıtların değişkenleri oluşturuldu
         double sBenzin95 = 0, sBenzin97 = 0, sDizel = 0, sEuroDizel = 0, sLpg = 0;
 
@@ -30,6 +33,9 @@ namespace PetrolStationProject
         // bin dosyası içindeki fiyat ve depo txt belgeleri
         string[] depoBilgileri;
         string[] fiyatBilgileri;
+
+        
+      
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -129,8 +135,123 @@ namespace PetrolStationProject
             numericupdown_value();
 
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                fBenzin95 = fBenzin95 + (fBenzin95 * Convert.ToDouble(textBox6.Text) / 100);
+                fiyatBilgileri[0] = Convert.ToString(fBenzin95);
 
+            }
+            catch (Exception)
+            {
 
+                textBox6.Text = "Hata!!";
+            }
+            try
+            {
+                fBenzin97 = fBenzin97 + (fBenzin97 * Convert.ToDouble(textBox7.Text) / 100);
+                fiyatBilgileri[1] = Convert.ToString(fBenzin97);
+
+            }
+            catch (Exception)
+            {
+
+                textBox7.Text = "Hata!!";
+            }
+            try
+            {
+                fDizel = fDizel + (fDizel * Convert.ToDouble(textBox8.Text) / 100);
+                fiyatBilgileri[2] = Convert.ToString(fDizel);
+
+            }
+            catch (Exception)
+            {
+
+                textBox8.Text = "Hata!!";
+            }
+            try
+            {
+                fEuroDizel = fEuroDizel + (fEuroDizel * Convert.ToDouble(textBox9.Text) / 100);
+                fiyatBilgileri[3] = Convert.ToString(fEuroDizel);
+
+            }
+            catch (Exception)
+            {
+
+                textBox9.Text = "Hata!!";
+            }
+            try
+            {
+                fLpg = fLpg + (fLpg * Convert.ToDouble(textBox10.Text) / 100);
+                fiyatBilgileri[4] = Convert.ToString(fLpg);
+
+            }
+            catch (Exception)
+            {
+
+                textBox10.Text = "Hata!!";
+            }
+            System.IO.File.WriteAllLines(Application.StartupPath + "\\fiyat.txt", fiyatBilgileri);
+            txt_fiyat_oku();
+            txt_fiyat_yaz();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // yakitTurleri "Benzin95", "Benzin97", "Dizel", "Euro Dizel", "LPG" 
+            // Comboboxdaki değerlere göre Yakıt türü seçildiğinde 
+            // numericupdown nesnelerinin görünürlük olayları
+           if (comboBox1.Text == "Benzin95")
+            {
+                numericUpDown1.Enabled = true;
+                numericUpDown2.Enabled = false;
+                numericUpDown3.Enabled = false;
+                numericUpDown4.Enabled = false;
+                numericUpDown5.Enabled = false;
+            }
+           else if (comboBox1.Text == "Benzin97")
+            {
+                numericUpDown1.Enabled = false;
+                numericUpDown2.Enabled = true;
+                numericUpDown3.Enabled = false;
+                numericUpDown4.Enabled = false;
+                numericUpDown5.Enabled = false;
+            }
+            else if (comboBox1.Text == "Dizel")
+            {
+                numericUpDown1.Enabled = false;
+                numericUpDown2.Enabled = false;
+                numericUpDown3.Enabled = true;
+                numericUpDown4.Enabled = false;
+                numericUpDown5.Enabled = false;
+            }
+            else if (comboBox1.Text == "Euro Dizel")
+            {
+                numericUpDown1.Enabled = false;
+                numericUpDown2.Enabled = false;
+                numericUpDown3.Enabled = false;
+                numericUpDown4.Enabled = true;
+                numericUpDown5.Enabled = false;
+            }
+            else if (comboBox1.Text == "LPG")
+            {
+                numericUpDown1.Enabled = false;
+                numericUpDown2.Enabled = false;
+                numericUpDown3.Enabled = false;
+                numericUpDown4.Enabled = false;
+                numericUpDown5.Enabled = true;
+            }
+
+           // seçimi değiştirdikten sonra değişiklikleri sıfırla
+            numericUpDown1.Value = 0;
+            numericUpDown2.Value = 0;
+            numericUpDown3.Value = 0;
+            numericUpDown4.Value = 0;
+            numericUpDown5.Value = 0;
+            label28.Text = "________";
+
+        }
         // private method yalnızca bu sınıfta çalışır 
         // public method başka sınıflarda da çalışabilir
         private void txt_depo_oku()
@@ -158,20 +279,20 @@ namespace PetrolStationProject
         private void txt_fiyat_oku()
         {
             fiyatBilgileri = System.IO.File.ReadAllLines(Application.StartupPath + "\\fiyat.txt");
-            fBenzin95 = Convert.ToDouble(depoBilgileri[0]);
-            fBenzin97 = Convert.ToDouble(depoBilgileri[1]);
-            fDizel = Convert.ToDouble(depoBilgileri[2]);
-            fEuroDizel = Convert.ToDouble(depoBilgileri[3]);
-            fLpg = Convert.ToDouble(depoBilgileri[4]);
+            fBenzin95 = Convert.ToDouble(fiyatBilgileri[0]);
+            fBenzin97 = Convert.ToDouble(fiyatBilgileri[1]);
+            fDizel = Convert.ToDouble(fiyatBilgileri[2]);
+            fEuroDizel = Convert.ToDouble(fiyatBilgileri[3]);
+            fLpg = Convert.ToDouble(fiyatBilgileri[4]);
         }
 
         private void txt_fiyat_yaz()
         {
-            label16.Text = dBenzin95.ToString("N");
-            label17.Text = dBenzin97.ToString("N");
-            label18.Text = dDizel.ToString("N");
-            label19.Text = dEuroDizel.ToString("N");
-            label20.Text = dLpg.ToString("N");
+            label16.Text = fBenzin95.ToString("N");
+            label17.Text = fBenzin97.ToString("N");
+            label18.Text = fDizel.ToString("N");
+            label19.Text = fEuroDizel.ToString("N");
+            label20.Text = fLpg.ToString("N");
         }
 
         private void progressbar_guncelle()
