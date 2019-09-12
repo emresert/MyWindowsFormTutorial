@@ -267,6 +267,9 @@ namespace PetrolStationProject
         {
             try
             {
+                // fiyat = fiyat + (f * girilen yeni fiyat / 100)
+                // oran orantı ile fiyat arttırıldı.
+                // 100,  % 'lik hesaptan geliyor.
                 fBenzin95 = fBenzin95 + (fBenzin95 * Convert.ToDouble(textBox6.Text) / 100);
                 fiyatBilgileri[0] = Convert.ToString(fBenzin95);
 
