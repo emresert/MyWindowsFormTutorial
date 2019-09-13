@@ -1,0 +1,1 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\StudentGradeInformation.exe.config
