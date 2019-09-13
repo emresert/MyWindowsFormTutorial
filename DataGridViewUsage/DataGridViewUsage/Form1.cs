@@ -131,5 +131,44 @@ namespace DataGridViewUsage
                 throw;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                baglantim.Open();
+                OleDbDataAdapter updateKomutu = new OleDbDataAdapter("update aracTest set fiyat ='"+textBox3.Text +"' where ruhsatNo='"+textBox1.Text+"'",baglantim);
+                DataSet dsHafiza = new DataSet();
+                updateKomutu.Fill(dsHafiza);
+                baglantim.Close();
+                MessageBox.Show("Araç fiyatı güncellendi");
+                kayitlariListele();
+            }
+            catch (Exception hataMsj)
+            {
+                MessageBox.Show(hataMsj.Message);
+                baglantim.Close();
+                throw;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                baglantim.Open();
+                OleDbDataAdapter araKomutu = new OleDbDataAdapter("select * from aracTest where ruhsatNo ='"+textBox1.Text+"'",baglantim);
+                DataSet dsHafiza = new DataSet();
+                araKomutu.Fill(dsHafiza);
+                dataGridView1.DataSource = dsHafiza.Tables[0];
+                baglantim.Close();
+            }
+            catch (Exception hataMsj)
+            {
+                MessageBox.Show(hataMsj.Message);
+                baglantim.Close();
+            
+            }
+        }
     }
 }
