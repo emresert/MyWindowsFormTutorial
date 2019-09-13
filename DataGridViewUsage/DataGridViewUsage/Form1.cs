@@ -87,5 +87,49 @@ namespace DataGridViewUsage
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                baglantim.Open();
+                OleDbDataAdapter ekleKomutu = new OleDbDataAdapter
+                    ("insert into aracTest (ruhsatNo,marka,model,yakitTipi,kasaTipi,kilometre,fiyat) values ('" + textBox1.Text + "','" + comboBox1.SelectedItem.ToString() + "','" + comboBox2.SelectedItem.ToString()+"','"+comboBox3.SelectedItem.ToString()+"','"+comboBox4.SelectedItem.ToString()+"','"+textBox2.Text+"','"+textBox3.Text+"')",baglantim);
+                DataSet dsHafiza = new DataSet();
+                ekleKomutu.Fill(dsHafiza);
+                baglantim.Close();
+                MessageBox.Show("Araç veri tabanına eklendi");
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                kayitlariListele();
+            }
+            catch (Exception hataMsj)
+            {
+                MessageBox.Show(hataMsj.Message);
+                baglantim.Close();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               
+                baglantim.Open();
+                OleDbDataAdapter silKomutu = new OleDbDataAdapter("delete from aracTest where ruhsatNo ='"+textBox1.Text+"'",baglantim);
+                DataSet dsHafiza = new DataSet();
+                silKomutu.Fill(dsHafiza);
+                baglantim.Close();
+                MessageBox.Show("Araç veri tabanından silindi");
+                kayitlariListele();
+            }
+            catch (Exception hatMsj)
+            {
+                MessageBox.Show(hatMsj.Message);
+                baglantim.Close();
+                throw;
+            }
+        }
     }
 }
