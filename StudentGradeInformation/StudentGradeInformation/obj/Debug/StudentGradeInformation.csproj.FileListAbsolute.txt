@@ -1,1 +1,13 @@
 C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\StudentGradeInformation.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\StudentGradeInformation.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\StudentGradeInformation.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\EntityFramework.dll
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\EntityFramework.xml
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.csprojResolveAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.csproj.GenerateResource.Cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\StudentGradeInformation\StudentGradeInformation\obj\Debug\StudentGradeInformation.pdb

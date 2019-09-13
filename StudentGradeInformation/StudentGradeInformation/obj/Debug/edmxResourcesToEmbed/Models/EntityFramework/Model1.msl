@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbExamSystemModelStoreContainer" CdmEntityContainer="DbExamSystemEntities">
+    <EntitySetMapping Name="tbl_Lesson">
+      <EntityTypeMapping TypeName="DbExamSystemModel.tbl_Lesson">
+        <MappingFragment StoreEntitySet="tbl_Lesson">
+          <ScalarProperty Name="lessonId" ColumnName="lessonId" />
+          <ScalarProperty Name="lessonName" ColumnName="lessonName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Notes">
+      <EntityTypeMapping TypeName="DbExamSystemModel.tbl_Notes">
+        <MappingFragment StoreEntitySet="tbl_Notes">
+          <ScalarProperty Name="noteId" ColumnName="noteId" />
+          <ScalarProperty Name="fkStudent" ColumnName="fkStudent" />
+          <ScalarProperty Name="fkLesson" ColumnName="fkLesson" />
+          <ScalarProperty Name="exam1" ColumnName="exam1" />
+          <ScalarProperty Name="exam2" ColumnName="exam2" />
+          <ScalarProperty Name="exam3" ColumnName="exam3" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Student">
+      <EntityTypeMapping TypeName="DbExamSystemModel.tbl_Student">
+        <MappingFragment StoreEntitySet="tbl_Student">
+          <ScalarProperty Name="studentId" ColumnName="studentId" />
+          <ScalarProperty Name="studentName" ColumnName="studentName" />
+          <ScalarProperty Name="studentSurname" ColumnName="studentSurname" />
+          <ScalarProperty Name="studentImage" ColumnName="studentImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

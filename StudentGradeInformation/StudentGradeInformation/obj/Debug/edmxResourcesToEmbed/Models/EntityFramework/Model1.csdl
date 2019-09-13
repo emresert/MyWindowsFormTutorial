@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbExamSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_Lesson">
+    <Key>
+      <PropertyRef Name="lessonId" />
+    </Key>
+    <Property Name="lessonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="lessonName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbl_Notes" Relationship="Self.FK_tbl_Notes_tbl_Lesson" FromRole="tbl_Lesson" ToRole="tbl_Notes" />
+  </EntityType>
+  <EntityType Name="tbl_Notes">
+    <Key>
+      <PropertyRef Name="noteId" />
+    </Key>
+    <Property Name="noteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fkStudent" Type="Int32" />
+    <Property Name="fkLesson" Type="Int32" />
+    <Property Name="exam1" Type="Int16" />
+    <Property Name="exam2" Type="Int16" />
+    <Property Name="exam3" Type="Int16" />
+    <Property Name="result" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="tbl_Lesson" Relationship="Self.FK_tbl_Notes_tbl_Lesson" FromRole="tbl_Notes" ToRole="tbl_Lesson" />
+    <NavigationProperty Name="tbl_Student" Relationship="Self.FK_tbl_Notes_tbl_Student" FromRole="tbl_Notes" ToRole="tbl_Student" />
+  </EntityType>
+  <EntityType Name="tbl_Student">
+    <Key>
+      <PropertyRef Name="studentId" />
+    </Key>
+    <Property Name="studentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="studentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="studentSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="studentImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbl_Notes" Relationship="Self.FK_tbl_Notes_tbl_Student" FromRole="tbl_Student" ToRole="tbl_Notes" />
+  </EntityType>
+  <Association Name="FK_tbl_Notes_tbl_Lesson">
+    <End Role="tbl_Lesson" Type="Self.tbl_Lesson" Multiplicity="0..1" />
+    <End Role="tbl_Notes" Type="Self.tbl_Notes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Lesson">
+        <PropertyRef Name="lessonId" />
+      </Principal>
+      <Dependent Role="tbl_Notes">
+        <PropertyRef Name="fkLesson" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Notes_tbl_Student">
+    <End Role="tbl_Student" Type="Self.tbl_Student" Multiplicity="0..1" />
+    <End Role="tbl_Notes" Type="Self.tbl_Notes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Student">
+        <PropertyRef Name="studentId" />
+      </Principal>
+      <Dependent Role="tbl_Notes">
+        <PropertyRef Name="fkStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbExamSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Lesson" EntityType="Self.tbl_Lesson" />
+    <EntitySet Name="tbl_Notes" EntityType="Self.tbl_Notes" />
+    <EntitySet Name="tbl_Student" EntityType="Self.tbl_Student" />
+    <AssociationSet Name="FK_tbl_Notes_tbl_Lesson" Association="Self.FK_tbl_Notes_tbl_Lesson">
+      <End Role="tbl_Lesson" EntitySet="tbl_Lesson" />
+      <End Role="tbl_Notes" EntitySet="tbl_Notes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Notes_tbl_Student" Association="Self.FK_tbl_Notes_tbl_Student">
+      <End Role="tbl_Student" EntitySet="tbl_Student" />
+      <End Role="tbl_Notes" EntitySet="tbl_Notes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
