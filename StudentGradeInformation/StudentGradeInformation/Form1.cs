@@ -86,7 +86,9 @@ namespace StudentGradeInformation
         private void btnDelete_Click(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(txtStudentId.Text);
-            var student = db.tbl_Student.FirstOrDefault(s => s.studentId == id); //var student = db.tbl_Student.Find(id);
+            var student = db.tbl_Student.FirstOrDefault(s => s.studentId == id);
+            //var student = db.tbl_Student.Find(id);
+            // find method works only with primary key.
             db.tbl_Student.Remove(student);
 
             /* Delete process for selected row*/
