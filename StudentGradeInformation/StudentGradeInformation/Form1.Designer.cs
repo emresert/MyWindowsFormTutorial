@@ -115,6 +115,7 @@
             this.btnUpdate.TabIndex = 4;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnFind
             // 

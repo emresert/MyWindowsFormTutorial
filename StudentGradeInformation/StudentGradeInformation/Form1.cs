@@ -19,7 +19,7 @@ namespace StudentGradeInformation
             InitializeComponent();
         }
         DbExamSystemEntities db = new DbExamSystemEntities();
-        public void dgvListing()
+        public void dgvRefreshListing()
         {
             dataGridView1.DataSource = db.tbl_Student.ToList();
             dataGridView1.Columns[4].Visible = false;
@@ -79,7 +79,7 @@ namespace StudentGradeInformation
             db.SaveChanges();
             MessageBox.Show("Öğrenci Listeye Eklenmiştir.");
             rmvStudentTxt();
-            dgvListing();
+            dgvRefreshListing();
 
         }
 
@@ -99,7 +99,20 @@ namespace StudentGradeInformation
             //}
 
             db.SaveChanges();
-            dgvListing();
+            dgvRefreshListing();
+            rmvStudentTxt();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtStudentId.Text);
+            var student = db.tbl_Student.Find(id);
+            student.studentName = txtStudentName.Text;
+            student.studentSurname = txtStudentSurname.Text;
+            student.studentImage = txtStudentImage.Text;
+            db.SaveChanges();
+            MessageBox.Show("Öğrenci bilgileri güncellendi");
+            dgvRefreshListing();
             rmvStudentTxt();
         }
     }
