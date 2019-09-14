@@ -50,19 +50,19 @@
             this.txtClassName = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtExam1 = new System.Windows.Forms.TextBox();
+            this.txtStatus = new System.Windows.Forms.TextBox();
             this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnGradeUpdate = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtExam3 = new System.Windows.Forms.TextBox();
+            this.btnGradeCalculate = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.txtExam2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.btnClassList = new System.Windows.Forms.Button();
             this.btnNoteList = new System.Windows.Forms.Button();
-            this.btnGradeCalculate = new System.Windows.Forms.Button();
-            this.btnGradeUpdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -85,6 +85,7 @@
             this.btnStudentList.TabIndex = 1;
             this.btnStudentList.Text = "Öğrenci Listele";
             this.btnStudentList.UseVisualStyleBackColor = true;
+            this.btnStudentList.Click += new System.EventHandler(this.btnStudentList_Click);
             // 
             // btnSave
             // 
@@ -276,12 +277,28 @@
             this.txtExam1.Size = new System.Drawing.Size(100, 20);
             this.txtExam1.TabIndex = 7;
             // 
+            // txtStatus
+            // 
+            this.txtStatus.Location = new System.Drawing.Point(114, 138);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(100, 20);
+            this.txtStatus.TabIndex = 7;
+            // 
             // txtResult
             // 
             this.txtResult.Location = new System.Drawing.Point(114, 109);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(100, 20);
             this.txtResult.TabIndex = 7;
+            // 
+            // btnGradeUpdate
+            // 
+            this.btnGradeUpdate.Location = new System.Drawing.Point(6, 196);
+            this.btnGradeUpdate.Name = "btnGradeUpdate";
+            this.btnGradeUpdate.Size = new System.Drawing.Size(258, 23);
+            this.btnGradeUpdate.TabIndex = 5;
+            this.btnGradeUpdate.Text = "Not Güncelle";
+            this.btnGradeUpdate.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -298,6 +315,15 @@
             this.txtExam3.Name = "txtExam3";
             this.txtExam3.Size = new System.Drawing.Size(100, 20);
             this.txtExam3.TabIndex = 7;
+            // 
+            // btnGradeCalculate
+            // 
+            this.btnGradeCalculate.Location = new System.Drawing.Point(6, 167);
+            this.btnGradeCalculate.Name = "btnGradeCalculate";
+            this.btnGradeCalculate.Size = new System.Drawing.Size(258, 23);
+            this.btnGradeCalculate.TabIndex = 4;
+            this.btnGradeCalculate.Text = "Not Hesapla";
+            this.btnGradeCalculate.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -324,15 +350,6 @@
             this.label9.TabIndex = 6;
             this.label9.Text = "Sınav3";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(49, 116);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 13);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Ortalama";
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -342,12 +359,14 @@
             this.label11.TabIndex = 6;
             this.label11.Text = "Durum";
             // 
-            // txtStatus
+            // label10
             // 
-            this.txtStatus.Location = new System.Drawing.Point(114, 138);
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(100, 20);
-            this.txtStatus.TabIndex = 7;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(49, 116);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(49, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Ortalama";
             // 
             // btnClassList
             // 
@@ -357,6 +376,7 @@
             this.btnClassList.TabIndex = 4;
             this.btnClassList.Text = "Ders Listesi";
             this.btnClassList.UseVisualStyleBackColor = true;
+            this.btnClassList.Click += new System.EventHandler(this.btnClassList_Click);
             // 
             // btnNoteList
             // 
@@ -366,24 +386,7 @@
             this.btnNoteList.TabIndex = 5;
             this.btnNoteList.Text = "Not  Listesi";
             this.btnNoteList.UseVisualStyleBackColor = true;
-            // 
-            // btnGradeCalculate
-            // 
-            this.btnGradeCalculate.Location = new System.Drawing.Point(6, 167);
-            this.btnGradeCalculate.Name = "btnGradeCalculate";
-            this.btnGradeCalculate.Size = new System.Drawing.Size(258, 23);
-            this.btnGradeCalculate.TabIndex = 4;
-            this.btnGradeCalculate.Text = "Not Hesapla";
-            this.btnGradeCalculate.UseVisualStyleBackColor = true;
-            // 
-            // btnGradeUpdate
-            // 
-            this.btnGradeUpdate.Location = new System.Drawing.Point(6, 196);
-            this.btnGradeUpdate.Name = "btnGradeUpdate";
-            this.btnGradeUpdate.Size = new System.Drawing.Size(258, 23);
-            this.btnGradeUpdate.TabIndex = 5;
-            this.btnGradeUpdate.Text = "Not Güncelle";
-            this.btnGradeUpdate.UseVisualStyleBackColor = true;
+            this.btnNoteList.Click += new System.EventHandler(this.btnNoteList_Click);
             // 
             // Form1
             // 
@@ -403,6 +406,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
