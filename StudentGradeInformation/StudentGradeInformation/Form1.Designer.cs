@@ -95,6 +95,7 @@
             this.btnSave.TabIndex = 2;
             this.btnSave.Text = "Kaydet";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnDelete
             // 
@@ -104,6 +105,7 @@
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
