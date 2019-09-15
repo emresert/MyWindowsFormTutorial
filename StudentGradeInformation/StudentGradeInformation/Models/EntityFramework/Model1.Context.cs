@@ -12,6 +12,8 @@ namespace StudentGradeInformation.Models.EntityFramework
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class DbExamSystemEntities : DbContext
     {
@@ -28,5 +30,11 @@ namespace StudentGradeInformation.Models.EntityFramework
         public virtual DbSet<tbl_Lesson> tbl_Lesson { get; set; }
         public virtual DbSet<tbl_Notes> tbl_Notes { get; set; }
         public virtual DbSet<tbl_Student> tbl_Student { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+    
+        public virtual ObjectResult<spListing_Result1> spListing()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spListing_Result1>("spListing");
+        }
     }
 }

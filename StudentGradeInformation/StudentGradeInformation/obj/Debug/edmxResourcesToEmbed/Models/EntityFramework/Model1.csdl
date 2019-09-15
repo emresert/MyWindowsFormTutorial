@@ -69,5 +69,47 @@
       <End Role="tbl_Student" EntitySet="tbl_Student" />
       <End Role="tbl_Notes" EntitySet="tbl_Notes" />
     </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="DbExamSystemModel.sysdiagrams" />
+    <FunctionImport Name="spListing" ReturnType="Collection(DbExamSystemModel.spListing_Result1)" />
   </EntityContainer>
+  <ComplexType Name="spListing_Result">
+    <Property Type="Int32" Name="noteId" Nullable="false" />
+    <Property Type="String" Name="Ad_Soyad" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="lessonName" Nullable="true" MaxLength="50" />
+    <Property Type="Int16" Name="exam1" Nullable="true" />
+    <Property Type="Int16" Name="exam2" Nullable="true" />
+    <Property Type="Int16" Name="exam21" Nullable="true" />
+    <Property Type="Decimal" Name="result" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="Boolean" Name="status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="spListing1_Result">
+    <Property Type="Int32" Name="noteId" Nullable="false" />
+    <Property Type="String" Name="Ad_Soyad" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="lessonName" Nullable="true" MaxLength="50" />
+    <Property Type="Int16" Name="exam1" Nullable="true" />
+    <Property Type="Int16" Name="exam2" Nullable="true" />
+    <Property Type="Int16" Name="exam3" Nullable="true" />
+    <Property Type="Decimal" Name="result" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="Boolean" Name="status" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <ComplexType Name="spListing_Result1">
+    <Property Type="Int32" Name="noteId" Nullable="false" />
+    <Property Type="String" Name="Ad_Soyad" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="lessonName" Nullable="true" MaxLength="50" />
+    <Property Type="Int16" Name="exam1" Nullable="true" />
+    <Property Type="Int16" Name="exam2" Nullable="true" />
+    <Property Type="Int16" Name="exam3" Nullable="true" />
+    <Property Type="Decimal" Name="result" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="Boolean" Name="status" Nullable="true" />
+  </ComplexType>
 </Schema>

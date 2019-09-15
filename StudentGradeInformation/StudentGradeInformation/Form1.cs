@@ -57,6 +57,7 @@ namespace StudentGradeInformation
         private void Form1_Load(object sender, EventArgs e)
         {
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            
         }
 
         private void btnNoteList_Click(object sender, EventArgs e)
@@ -116,6 +117,11 @@ namespace StudentGradeInformation
             MessageBox.Show("Öğrenci bilgileri güncellendi");
             dgvRefreshListing();
             rmvStudentTxt();
+        }
+
+        private void btnListingProc_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = db.spListing(); // procedure is used
         }
     }
 }

@@ -63,6 +63,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnClassList = new System.Windows.Forms.Button();
             this.btnNoteList = new System.Windows.Forms.Button();
+            this.btnListingProc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -391,11 +392,22 @@
             this.btnNoteList.UseVisualStyleBackColor = true;
             this.btnNoteList.Click += new System.EventHandler(this.btnNoteList_Click);
             // 
+            // btnListingProc
+            // 
+            this.btnListingProc.Location = new System.Drawing.Point(0, 406);
+            this.btnListingProc.Name = "btnListingProc";
+            this.btnListingProc.Size = new System.Drawing.Size(132, 23);
+            this.btnListingProc.TabIndex = 9;
+            this.btnListingProc.Text = "Procedure Çağır";
+            this.btnListingProc.UseVisualStyleBackColor = true;
+            this.btnListingProc.Click += new System.EventHandler(this.btnListingProc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 435);
+            this.Controls.Add(this.btnListingProc);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -458,6 +470,7 @@
         private System.Windows.Forms.Button btnNoteList;
         private System.Windows.Forms.Button btnGradeUpdate;
         private System.Windows.Forms.Button btnGradeCalculate;
+        private System.Windows.Forms.Button btnListingProc;
     }
 }
 

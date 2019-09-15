@@ -10,6 +10,7 @@
         <EntityTypeShape EntityType="DbExamSystemModel.tbl_Student" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
         <AssociationConnector Association="DbExamSystemModel.FK_tbl_Notes_tbl_Lesson" ManuallyRouted="false" />
         <AssociationConnector Association="DbExamSystemModel.FK_tbl_Notes_tbl_Student" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbExamSystemModel.sysdiagrams" Width="1.5" PointX="3.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
