@@ -123,5 +123,13 @@ namespace StudentGradeInformation
         {
             dataGridView1.DataSource = db.spListing(); // procedure is used
         }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            // We should use 'Where' command for more record than one
+           dataGridView1.DataSource = db.tbl_Student.Where
+           (w => w.studentName == txtStudentName.Text & w.studentSurname == txtStudentSurname.Text).ToList() ;
+           
+        }
     }
 }

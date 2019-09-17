@@ -126,6 +126,7 @@
             this.btnFind.TabIndex = 5;
             this.btnFind.Text = "Bul";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // label1
             // 
