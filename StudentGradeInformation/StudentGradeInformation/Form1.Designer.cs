@@ -177,6 +177,7 @@
             this.txtStudentName.Name = "txtStudentName";
             this.txtStudentName.Size = new System.Drawing.Size(100, 20);
             this.txtStudentName.TabIndex = 7;
+            this.txtStudentName.TextChanged += new System.EventHandler(this.txtStudentName_TextChanged);
             // 
             // txtStudentSurname
             // 

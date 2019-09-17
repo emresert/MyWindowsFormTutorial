@@ -131,5 +131,14 @@ namespace StudentGradeInformation
            (w => w.studentName == txtStudentName.Text & w.studentSurname == txtStudentSurname.Text).ToList() ;
            
         }
+
+        private void txtStudentName_TextChanged(object sender, EventArgs e)
+        {
+            string finding = txtStudentName.Text;
+            var records = from item /*Anything*/ in db.tbl_Student
+                          where item.studentName.Contains(finding)
+                          select item;
+            dataGridView1.DataSource = records.ToList();
+        }
     }
 }
