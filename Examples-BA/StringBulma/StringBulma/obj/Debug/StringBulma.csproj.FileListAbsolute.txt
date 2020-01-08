@@ -1,0 +1,10 @@
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\bin\Debug\StringBulma.exe.config
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\bin\Debug\StringBulma.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\bin\Debug\StringBulma.pdb
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.csprojAssemblyReference.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.Form1.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.Properties.Resources.resources
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.csproj.GenerateResource.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.csproj.CoreCompileInputs.cache
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.exe
+C:\Users\Emre Sert\Desktop\C#-WinForm\Examples-BA\StringBulma\StringBulma\obj\Debug\StringBulma.pdb
